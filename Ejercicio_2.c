@@ -1,3 +1,15 @@
+/*
+ * Archivo: Ejercicio_2.c
+ * Descripción: Este es un programa en C que calcule la suma de los primeros N números naturales
+ * utilizando un ciclo for paralelo. Utiliza la cláusula reduction con + para acumular la suma en una
+ * variable compartida
+ * 
+ * Funcionalidad:
+ * - Define N como una constante grande, por ejemplo, N = 1000000
+ * - Usa omp_get_wtime() para medir los tiempos de ejecución
+ *
+ * Fecha modificación: 08-24-2024
+ */
 #include <stdio.h>
 #include <omp.h>
 

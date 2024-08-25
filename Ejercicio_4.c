@@ -1,3 +1,15 @@
+/*
+ * Archivo: Ejercicio_4.c
+ * Descripción: Este es un programa en C que usa un ciclo for donde se modifiquen dos variables de
+ * manera paralela usando #pragma omp parallel for. 
+ * La variable 1 muestra la suma acumulada del ciclo y la variable 2 el número de iteración actual
+ * 
+ * Funcionalidad:
+ * - Usa la cláusula shared para gestionar el acceso a la variable1 dentro del ciclo.
+ * - Usa la cláusula private para gestionar el acceso a la variable2 dentro del ciclo.
+ *
+ * Fecha modificación: 08-24-2024
+ */
 #include <stdio.h>
 #include <omp.h>
 

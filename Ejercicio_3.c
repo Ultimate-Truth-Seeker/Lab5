@@ -1,3 +1,15 @@
+/*
+ * Archivo: Ejercicio_3.c
+ * Descripción: Este es un programa en C que ejecute tres funciones diferentes en paralelo usando la
+ * directiva #pragma omp sections. Cada sección es independiente.
+ * 
+ * Funcionalidad:
+ * - Genera la serie de Fibonacci
+ * - Calcula el factorial de un número
+ * - Encuentra el máximo de un arreglo
+ *
+ * Fecha modificación: 08-24-2024
+ */
 #include <stdio.h>
 #include <omp.h>
 

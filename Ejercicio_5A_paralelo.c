@@ -1,3 +1,19 @@
+/*
+ * Archivo: Ejercicio_5A_paralelo.c
+ * Descripción: Este programa cuenta cuántas veces aparece un valor específico 
+ * ('key') en un arreglo de números aleatorios de manera paralela.
+ * 
+ * Funcionalidad:
+ * - Genera un arreglo de tamaño N con valores aleatorios.
+ * - Inserta manualmente el valor 'key' en tres posiciones específicas del arreglo.
+ * - Cuenta cuántas veces aparece 'key' en el arreglo usando una función llamada count_key().
+ * - Imprime el número de apariciones de 'key' en el arreglo.
+ * 
+ * Referencia:
+ * Chandra, . R. et al. Parallel Programming in OpenMP
+ *
+ * Fecha modificación: 08-24-2024
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
